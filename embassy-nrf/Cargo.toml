@@ -157,7 +157,7 @@ nrf52811-pac = { version = "0.12.0", optional = true }
 nrf52820-pac = { version = "0.12.0", optional = true }
 nrf52832-pac = { version = "0.12.0", optional = true }
 nrf52833-pac = { version = "0.12.0", optional = true }
-nrf52840-pac = { version = "0.12.0", optional = true }
+nrf52840-pac = { git = "https://github.com/malishav/nrf-pacs.git", branch="cryptocell310", optional = true }
 nrf5340-app-pac = { version = "0.12.0", optional = true }
 nrf5340-net-pac = { version = "0.12.0", optional = true }
 nrf9160-pac = { version = "0.12.0", optional = true }
